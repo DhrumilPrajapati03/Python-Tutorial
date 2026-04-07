@@ -44,6 +44,7 @@ class son(father,mother):
         father.__init__(self,car)
         mother.__init__(self,gold)
         self.cycle = cycle
+        
     def prop(self):
         print(f"car = {self.car}")
         print(f"gold = {self.gold}")
